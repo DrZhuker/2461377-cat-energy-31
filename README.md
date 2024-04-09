@@ -2,6 +2,7 @@
 
 * Студент: [Дмитрий Карпачев](https://up.htmlacademy.ru/adaptive/31/user/2461377).
 * Наставник: [Дмитрий Осадченко](https://htmlacademy.ru/profile/dimaos).
+* Мой проект: [Кэт энерджи](https://drzhuker.github.io/2461377-cat-energy-31/).
 
 ---
 
