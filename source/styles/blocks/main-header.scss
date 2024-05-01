@@ -1,3 +1,11 @@
 .main-header {
-  color: #000000;
+  text-transform: uppercase;
+  padding: 13px 10px 13px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header a {
+  text-decoration: none;
 }

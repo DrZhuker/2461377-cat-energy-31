@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -15,9 +15,9 @@
   <script src="scripts/index.js" defer></script>
 </head>
 
-<body class="page__body">
+<body>
 
-  <header class="main-header">
+  <header class="main-header container">
 
     <a class="logo-img" href="index.html">
       <picture>
@@ -36,6 +36,16 @@
     <nav class="main-nav">
       <button class="main-nav__button button" type="button">
         <span class="visually-hidden">Меню</span>
+        <svg class="main-nav__svg--show" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="3" x2="24" y2="3" stroke="black" stroke-width="2" />
+          <line y1="11" x2="24" y2="11" stroke="black" stroke-width="2" />
+          <line y1="19" x2="24" y2="19" stroke="black" stroke-width="2" />
+        </svg>
+        <span class="visually-hidden">Закрыть</span>
+        <svg class="main-nav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line y1="-0.75" x2="24.7577" y2="-0.75" transform="matrix(0.686589 -0.727046 0.686589 0.727046 2.00171 20)" stroke="black" stroke-width="1.5" />
+          <line y1="-0.75" x2="24.7577" y2="-0.75" transform="matrix(0.686589 0.727046 -0.686589 0.727046 1 2)" stroke="black" stroke-width="1.5" />
+        </svg>
       </button>
       <ul class="main-nav__list">
         <li class="main-nav__item main-nav__item--current">
@@ -52,16 +62,16 @@
 
   </header>
 
-  <main class="main-container">
+  <main class="main-container container">
 
     <section class="hero">
       <h1 class="hero__title">Функциональное питание для котов</h1>
       <p class="hero__text">Занялся собой? Займись котом!</p>
       <a class="hero__link button" href="#">Подобрать программу</a>
       <picture>
-        <source media="(min-width: 1300px)" type="image/png" width="552" height="499" srcset="images/index-hero-can-desktop@1x.jpg 1x, images/index-hero-can-desktop@2x.jpg 2x">
-        <source media="(min-width: 768px)" type="image/png" width="709" height="609" srcset="images/index-hero-can-tablet@1x.jpg 1x, images/index-hero-can-mobile@2x.jpg 2x">
-        <img class="hero__image" src="images/index-hero-can-mobile@1x.jpg" srcset="images/index-hero-can-mobile@2x.jpg" width="280" height="270" alt="Банка корма с курицей">
+        <source media="(min-width: 1300px)" type="image/png" width="552" height="499" srcset="images/index-hero-can-desktop@1x.png 1x, images/index-hero-can-desktop@2x.png 2x">
+        <source media="(min-width: 768px)" type="image/png" width="709" height="609" srcset="images/index-hero-can-tablet@1x.png 1x, images/index-hero-can-mobile@2x.png 2x">
+        <img class="hero__image" src="images/index-hero-can-mobile@1x.png" srcset="images/index-hero-can-mobile@2x.png" width="280" height="270" alt="Банка корма с курицей">
       </picture>
     </section>
 
@@ -117,12 +127,12 @@
       <div class="example__slider slider">
         <span class="visually-hidden">Слайдер с котиком</span>
         <picture>
-          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/index-slider-big-cat-tablet@1x.jpg 1x, images/index-slider-big-cat-tablet@2x.jpg 2x">
-          <img class="example__image" src="images/index-slider-big-cat-mobile@1x.jpg" srcset="images/index-slider-big-cat-mobile@2x.jpg" width="280" height="256" alt="Жирный кот">
+          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/index-slider-big-cat-tablet@1x.png 1x, images/index-slider-big-cat-tablet@2x.png 2x">
+          <img class="example__image" src="images/index-slider-big-cat-mobile@1x.png" srcset="images/index-slider-big-cat-mobile@2x.png" width="280" height="256" alt="Жирный кот">
         </picture>
         <picture>
-          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/index-slider-skinny-cat-tablet@1x.jpg 1x, images/index-slider-skinny-cat-tablet@2x.jpg 2x">
-          <img class="example__image" src="images/index-slider-skinny-cat-mobile@1x.jpg" srcset="images/index-slider-skinny-cat-mobile@2x.jpg" width="280" height="256" alt="Худой кот">
+          <source media="(min-width: 768px)" type="image/png" width="560" height="512" srcset="images/index-slider-skinny-cat-tablet@1x.png 1x, images/index-slider-skinny-cat-tablet@2x.png 2x">
+          <img class="example__image" src="images/index-slider-skinny-cat-mobile@1x.png" srcset="images/index-slider-skinny-cat-mobile@2x.png" width="280" height="256" alt="Худой кот">
         </picture>
       </div>
     </section>
@@ -167,6 +177,7 @@
     </div>
   </footer>
 
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>

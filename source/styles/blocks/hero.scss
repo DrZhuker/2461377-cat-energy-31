@@ -1,3 +1,16 @@
 .hero {
-  color: #000000;
+  background-image: linear-gradient(180deg, $bg-color-hero 302px, transparent 302px);
+  background-size: 100%;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+
+.hero__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.hero__text {
+  text-transform: uppercase;
 }
