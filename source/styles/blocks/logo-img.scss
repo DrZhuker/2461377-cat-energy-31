@@ -1,3 +1,12 @@
 .logo-img {
-  color: #000000;
+  display: block;
+}
+
+.logo-img:hover,
+.logo-img:focus {
+  opacity: 0.6;
+}
+
+.logo-img:active {
+  opacity: 0.3;
 }

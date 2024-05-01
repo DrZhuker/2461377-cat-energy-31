@@ -1,3 +1,54 @@
 .faq {
+  padding: 20px;
+}
+
+.faq__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 0;
   color: #000000;
+}
+
+.faq__desc-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.faq__desc-item {
+  padding-left: 80px;
+  position: relative;
+}
+
+.faq__desc-item::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: $base-color-btn;
+  background-image: url("../../images/vector/faq-leaf.svg");
+  background-size: 25px 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
+}
+
+.faq__desc-item:nth-child(2)::before {
+  background-image: url("../../images/vector/faq-wash.svg");
+  background-size: 26px 28px;
+}
+
+.faq__desc-item:nth-child(3)::before {
+  background-image: url("../../images/vector/faq-eat.svg");
+  background-size: 25px 30px;
+}
+
+.faq__desc-item:nth-child(4)::before {
+  background-image: url("../../images/vector/faq-timer.svg");
+  background-size: 26px 31px;
 }

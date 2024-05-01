@@ -4,6 +4,15 @@
   background-color: transparent;
 }
 
+.main-nav__button:hover,
+.main-nav__button:focus {
+  opacity: 0.6;
+}
+
+.main-nav__button:active {
+  opacity: 0.3;
+}
+
 .main-nav__svg {
   display: none;
 }
