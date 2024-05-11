@@ -11,3 +11,12 @@
   align-items: center;
 }
 
+.button:hover,
+.button:focus-visible {
+  background-color: $base-hover-color-btn;
+}
+
+.button:active {
+  background-color: $base-hover-color-btn;
+  color: $base-action-color-btn-text;
+}

@@ -29,13 +29,3 @@
   text-decoration: none;
   padding: 10px 20px;
 }
-
-.hero__link:hover,
-.hero__link:focus {
-  background-color: $base-hover-color-btn;
-}
-
-.hero__link:active {
-  background-color: $base-hover-color-btn;
-  color: $base-action-color-btn-text;
-}
