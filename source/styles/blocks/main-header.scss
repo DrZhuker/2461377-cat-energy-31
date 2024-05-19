@@ -2,6 +2,7 @@
   text-transform: uppercase;
   padding: 13px 10px 13px 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -35,6 +36,8 @@
   min-height: 44px;
   background-color: transparent;
   display: grid;
+  cursor: pointer;
+  z-index: 2;
 
   @media (width >= $tablet-width) {
     display: none;
@@ -60,4 +63,16 @@
 .main-header__button:active {
   opacity: 0.3;
   background-color: transparent;
+}
+
+.main-header--nojs .main-header__button {
+  opacity: 0;
+  cursor: unset;
+  pointer-events: none;
+}
+
+.main-header--nojs .main-header__nav {
+  display: block;
+  margin-bottom: -13px;
+  margin-left: -20px;
 }
