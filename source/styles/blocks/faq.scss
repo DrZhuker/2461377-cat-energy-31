@@ -34,7 +34,7 @@
   }
 
   @media (width >= $desktop-width) {
-    margin-bottom: 72px;
+    margin-bottom: 31px;
   }
 }
 
@@ -48,6 +48,8 @@
   counter-reset: faq;
 
   @media (width >= $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
     padding-right: 79px;
     row-gap: 37px;
     justify-content: space-between;

@@ -5,6 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 7px;
 }
 
 .social-link {
@@ -21,7 +22,7 @@
     background-color: #666666;
   }
 
-  @media (min-width: $tablet-width) {
+  @media (width >= $tablet-width) {
     height: 37px;
 
     &::before {

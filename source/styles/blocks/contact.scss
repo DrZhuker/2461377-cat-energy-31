@@ -13,22 +13,23 @@
 .contact__wrapper {
   display: grid;
   grid-template-columns: 140px 140px;
-  padding: 20px 26px;
+  padding: 24px 20px 26px;
   justify-content: space-between;
 
   @media (width >= $tablet-width) {
+
+    grid-template-columns: 165px 165px;
     padding: 61px 70px;
   }
 
   @media (width >= $desktop-width) {
     position: absolute;
-
     grid-template-columns: 160px 160px;
-    gap: 87px;
+    gap: 88px;
     background-color: $color-white;
-    padding: 61px 80px;
+    padding: 60px 80px;
     margin-top: 95px;
-    left: calc(50% - 650px);
+    left: calc(50% - 610px);
   }
 }
 
@@ -57,6 +58,10 @@
     font-size: 16px;
     min-width: 160px;
     text-align: right;
+  }
+
+  @media (width >= $desktop-width) {
+    text-align: left;
   }
 }
 

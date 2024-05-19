@@ -3,7 +3,7 @@
 
   @media (width >= $tablet-width) {
     border-top: 1px solid #e6e6e6;
-    background-image: linear-gradient(180deg, $color-white 619px, #eaeaea 619px);
+    background-image: linear-gradient(180deg, $color-white 616px, #eaeaea 616px);
   }
 
   @media (width >= $desktop-width) {
@@ -14,17 +14,17 @@
 }
 
 .example__box {
-  padding: 20px;
+  padding: 27px 20px 38px;
   margin: 0 auto;
   max-width: 400px;
 
   @media (width >= $tablet-width) {
-    padding: 45px 30px 101px;
+    padding: 42px 30px 101px;
     max-width: 770px;
   }
 
   @media (width >= $desktop-width) {
-    padding: 0 0 75px;
+    padding: 0 40px 75px;
     width: 100%;
     max-width: 1300px;
     display: flex;
@@ -81,7 +81,7 @@
 
   @media (width >= $tablet-width) {
     justify-content: space-between;
-    margin-bottom: 99px;
+    margin-bottom: 102px;
   }
 
   @media (width >= $desktop-width) {
@@ -100,6 +100,7 @@
 
   @media (width >= $tablet-width) {
     margin: 0;
+    gap: 43px;
   }
 
   @media (width >= $desktop-width) {
@@ -130,6 +131,8 @@
   @media (width >= $tablet-width) {
     padding: 15px 20px 20px;
     min-width: 162px;
+    font-size: 30px;
+    line-height: 37px;
   }
 }
 
@@ -156,6 +159,7 @@
     width: max-content;
     padding-left: 9px;
     padding-right: 9px;
+    bottom: 3px;
     background-color: $color-white;
   }
 

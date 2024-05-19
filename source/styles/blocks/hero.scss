@@ -4,8 +4,8 @@
       url("../../images/index-hero-background-mobile@2x.png") 1x,
       url("../../images/index-hero-background-mobile@1x.png") 2x
     ),
-    linear-gradient(180deg, $bg-color-hero 302px, transparent 302px);
-  background-size: 320px 302px, 100%;
+    linear-gradient(180deg, $bg-color-hero 303px, transparent 303px);
+  background-size: 320px 303px, 100%;
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Oswald", sans-serif;
@@ -21,14 +21,16 @@
   @media (width >= $tablet-width) {
     color: $color-black;
     background-image: none;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 65px;
     position: relative;
     margin-bottom: 526px;
   }
 
   @media (width >= $desktop-width) {
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 143px;
     background-image:
       image-set(
@@ -50,6 +52,10 @@
 
   @media (width < $tablet-width) {
     margin: 0 auto;
+  }
+
+  @media (width >= $tablet-width) {
+    padding-left: 90px;
   }
 
   @media (width >= $desktop-width) {
@@ -81,17 +87,17 @@
 }
 
 .hero__text {
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 29px;
 
   @media (width >= $tablet-width) {
-    font-family: "Oswald", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
 
   @media (width >= $desktop-width) {
@@ -102,12 +108,11 @@
 .hero__image {
   display: block;
   margin: 0 auto;
-  margin-bottom: 3px;
 
   @media (width >= $tablet-width) {
     position: absolute;
     top: 266px;
-    left: 0;
+    left: 15px;
     padding-left: 30px;
     margin: 0;
     z-index: -1;
@@ -128,11 +133,9 @@
   padding: 10px 20px;
 
   @media (width >= $tablet-width) {
-    max-width: 244px;
-  }
-
-  @media (width >= $desktop-width) {
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 244px;
+    min-height: 54px;
+    font-size: 20px;
+    line-height: 26px;
   }
 }

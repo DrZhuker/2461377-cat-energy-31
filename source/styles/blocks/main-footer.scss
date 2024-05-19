@@ -10,12 +10,13 @@
   justify-content: center;
 
   @media (width >= $tablet-width) {
-    padding: 55px 30px;
+    padding: 54px 30px;
     flex-wrap: nowrap;
     align-items: center;
   }
 
   @media (width >= $desktop-width) {
+    padding-top: 64px;
     padding-left: 40px;
     padding-right: 40px;
     width: 100%;
@@ -26,7 +27,7 @@
 .main-footer__link {
   text-align: center;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #d9d9d9;
 
   @media (width >= $tablet-width) {
@@ -49,10 +50,11 @@
 .main-footer__list {
   width: 100%;
   border-bottom: 1px solid #d9d9d9;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 
-  @media (min-width: $tablet-width) {
+  @media (width >= $tablet-width) {
     border: none;
     margin: 0;
+    margin-left: 40px;
   }
 }
